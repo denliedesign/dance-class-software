@@ -1,0 +1,226 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-size: 1.15em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /*font-family: 'Playfair Display', serif;*/
+    font-weight: bold;
+    text-transform: uppercase;
+    /*font-family: 'Halant', serif;*/
+}
+
+#footer {
+    font-size: 0.8em;
+}
+
+.socials ion-icon  {
+    background: #d33;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+}
+
+.socials ion-icon:hover {
+    color: #d33;
+    background: white;
+}
+
+#bgdc-nav-items a:hover {
+    color: #d33;
+    text-decoration: underline;
+}
+
+#testimonial-bg-wrap {
+    height: 390px;
+}
+
+#testimonial-bg {
+    background-image: url("/images/testimonial-bg.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#carousel-testimonial-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 95%;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+#carouselTestimonial {
+    height: 100%;
+}
+
+/*.pages-heading {*/
+/*    border-top: 1px solid gray;*/
+/*    border-bottom: 1px solid gray;*/
+/*}*/
+
+#parties-form {
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    max-height: 750px;
+}
+
+.main-button {
+    background: #32373c;
+    color: white;
+    padding: 12px 18px;
+    font-size: 1.25em;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.main-button:hover {
+    background: #333;
+    color: white;
+
+}
+
+.table-head {
+    background: #d33;
+    color: white;
+}
+
+.table-title {
+    color: #d33;
+}
+
+.instructor-title {
+    font-size: 1.33em;
+    color: #666;
+    font-weight: lighter;
+}
+
+.acc-btn {
+    font-size: 0.6em;
+    color: #666;
+    text-align: center;
+    cursor: pointer;
+}
+
+.event-odd-bg {
+    background: #dd3333;
+    color: white;
+}
+
+.event-odd-bg:nth-child(odd) {
+    background: white;
+    color: black;
+}
+
+.txt-green { color: #10c45c; }
+.txt-blue { color: #307ad5; }
+.txt-pink { color: #d94da6; }
+.btn-blue { background: rgba(48, 122, 213, 1); }
+.btn-green { background: rgba(16, 196, 92, 1); }
+.btn-pink { background: rgba(217, 77, 166, 1); }
+.btn-blue:hover { background: rgba(48, 122, 213, 0.7); color: white; }
+.btn-green:hover { background: rgba(16, 196, 92, 0.7); color: white; }
+.btn-pink:hover { background: rgba(217, 77, 166, 0.7); color: white; }
+.txt-red { color: #d33; }
+.btn-red { background: RGBA(221, 51, 51, 1); }
+.btn-red:hover { background: RGBA(221, 51, 51, 0.7); color: white; }
+.btn-red-outline { border: 2px solid #dd3333; color: #dd3333 !important; }
+.btn-red-outline:hover { background: #dd3333; color: white !important; }
+
+.btn-family {
+    color: white;
+    border-radius: 30px;
+    transition: background 0.4s ease;
+    padding: 10px 20px;
+}
+
+.next-step {
+    background: white;
+    color: black;
+    width: 300px;
+    height: 200px;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#footer-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#footer-nav {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#footer-nav {
+    line-height: 2;
+}
+
+/* checkbox image */
+
+/* Style for the image checkbox */
+.checkbox-image {
+    display: none; /* Hide the actual checkbox */
+}
+
+.checkbox-image-label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.checkbox-image-label img {
+    border: 2px solid transparent; /* Border for image to resemble checkbox */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+.checkbox-image:checked + .checkbox-image-label img {
+    border-color: #00f; /* Change border color when checked */
+}
+
+.quick {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.class-card-text {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    background: #d33;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.25em;
+}
+
+/* end checkbox image */
+
+.btn-poison:hover {
+    background: #748283 !important;
+}
+
+.numero {
+    background: #DC3545;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 50%;
+}
