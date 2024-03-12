@@ -224,3 +224,38 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px 30px;
     border-radius: 50%;
 }
+.styled-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    /*transition: border-color 0.3s ease;*/
+    position: relative; /* Add position relative */
+    box-shadow: 0 0 5px #0B6EFD; /* Add box shadow */
+}
+
+.styled-checkbox:checked {
+    border-color: #007bff; /* Change border color when checked */
+}
+
+/* Custom checkmark */
+.styled-checkbox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 2px;
+    transition: display 0.3s ease;
+    display: none; /* Hide by default */
+}
+
+.styled-checkbox:checked::before {
+    display: block; /* Show when checked */
+}

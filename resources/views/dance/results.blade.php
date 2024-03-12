@@ -12,6 +12,9 @@
 {{--        <hr class="my-3" style="width: 60%; margin: 0 auto;">--}}
         <h1 class="text-center mt-4">Family Flex Scheduler</h1>
         <h1 class="text-center mb-4"><span style="font-size: 0.7em;">Personalized Dance Recommendations for You!</span></h1>
+        <p class="text-center">
+            Having filtered the dance classes based on your specified criteria, it's time to select your favorites. This will ensure you see only the classes that align perfectly with what you're looking for, making your registration process smoother and more tailored to your preferences.
+        </p>
 {{--        <hr class="my-3" style="width: 60%; margin: 0 auto;">--}}
 
         <!-- Add sorting links/buttons -->
@@ -35,7 +38,7 @@
             <table id="danceClassTable" class="table my-4">
                 <thead>
                 <tr>
-                    <th>Select</th>
+                    <th>SELECT</th>
                     <th>Name</th>
                     <th>Age</th>
                     <th>Dance Style</th>
@@ -49,7 +52,7 @@
                 @foreach($classes as $class)
                     <tr>
                         <td>
-                            <input type="checkbox" name="selectedClasses[]" value="{{ $class->id }}">
+                            <input class="styled-checkbox" type="checkbox" name="selectedClasses[]" value="{{ $class->id }}">
                         </td>
                         <td><strong>{{ $class->name }}</strong></td>
                         <td>{{ $class->age_requirement }}</td>
@@ -97,12 +100,13 @@
                 </tbody>
             </table>
                 <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn btn-lg btn-primary">Submit Favorites</button>
+                    <button type="submit" class="btn btn-lg btn-primary">Show Your Selected Favorites</button>
                 </div>
             </form>
 
             <p class="text-center my-3">
-                Great job! You've got some fantastic dance classes to choose from.<br>If you want to fine-tune your preferences feel free to go back and adjust.<br>We're here to help you find the perfect fit!
+{{--                Great job! You've got some fantastic dance classes to choose from.<br>--}}
+                If you want to fine-tune your preferences feel free to go back and adjust.<br>We're here to help you find the perfect fit!
             </p>
             <div class="d-flex justify-content-center my-3">
                 <a href="/dance/form" class="btn btn-outline-danger">Back</a>
