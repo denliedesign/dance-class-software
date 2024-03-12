@@ -10,7 +10,8 @@
 
     <div class="container my-5">
 {{--        <hr class="my-3" style="width: 60%; margin: 0 auto;">--}}
-        <h1 class="text-center my-4">Personalized Dance Recommendations for You!</h1>
+        <h1 class="text-center mt-4">Family Flex Scheduler</h1>
+        <h1 class="text-center mb-4"><span style="font-size: 0.7em;">Personalized Dance Recommendations for You!</span></h1>
 {{--        <hr class="my-3" style="width: 60%; margin: 0 auto;">--}}
 
         <!-- Add sorting links/buttons -->

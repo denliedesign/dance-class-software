@@ -12,7 +12,10 @@ SUCCESS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
     <div class="container my-5">
-        <h1 class="text-center my-4">Your Selected Classes</h1>
+{{--        <hr class="my-3" style="width: 60%; margin: 0 auto;">--}}
+        <h1 class="text-center mt-4 mb-0">Family Flex Scheduler</h1>
+        <h1 class="text-center mb-4 mt-0"><span style="font-size: 0.7em;">Your Selected Classes</span></h1>
+{{--        <hr class="my-3" style="width: 60%; margin: 0 auto;">--}}
 
         <table class="table my-4">
             <thead>
@@ -78,30 +81,42 @@ SUCCESS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             </tbody>
         </table>
 
+        <p class="text-center my-4">
+                This page is not a submitted registration. You must hit the register now button and go through the process.
+                <br>
+                Current student registration begins <strong>April 19th</strong>. New student registration begins <strong>April 24th</strong>.
+        </p>
+
         <div class="d-flex justify-content-center">
             <!-- Enroll Button -->
-            <a href="https://app.akadadance.com/customer/login?schoolId=AK600070J&c=1" target="_blank" class="btn text-white mx-2 btn-primary">Register Now!</a>
+            <a href="https://app.akadadance.com/customer/login?schoolId=AK600070J&c=1" target="_blank" class="btn btn-lg text-white mx-2 btn-primary">Register Now!</a>
 
-            <!-- Download Button -->
-            <a href="{{ route('downloadFavorites') }}" class="btn text-white mx-2 btn-red" target="_blank">Download</a>
+            <div class="d-flex align-items-center">
+                <!-- Download Button -->
+                <a href="{{ route('downloadFavorites') }}" class="btn text-white mx-2 btn-red" target="_blank">Download</a>
+            </div>
 
-            <!-- Print Button -->
-            <button onclick="window.print()" class="btn text-white mx-2 btn-secondary">Print</button>
+            <div class="d-flex align-items-center">
+                <!-- Print Button -->
+                <button onclick="window.print()" class="btn text-white mx-2 btn-secondary">Print</button>
+            </div>
         </div>
+
         <div class="d-flex justify-content-center mt-3">
             <!-- Email Button -->
             <form action="{{ route('sendFavoritesEmail') }}" method="post">
                 @csrf
                 @method('POST')
-                <label for="email">Enter your email:</label>
-                <input type="email" name="sendEmail" required>
-                <input type="hidden" name="sendEmailFlag" value="1"> <!-- Add hidden input to indicate email sending -->
-                <button type="submit" class="btn text-white mx-2 btn-poison" style="background: #95A5A6; border: 1px solid #95A5A6;">
-                    Send Favorites via Email
-                </button>
+                <div>
+                    <label for="email">Enter your email:</label>
+                    <input class="rounded" type="email" name="sendEmail" required>
+                    <input type="hidden" name="sendEmailFlag" value="1"> <!-- Add hidden input to indicate email sending -->
+                    <button type="submit" class="btn text-white mx-2 btn-poison mt-2" style="background: #95A5A6; border: 1px solid #95A5A6;">
+                        Send Favorites via Email
+                    </button>
+                </div>
             </form>
         </div>
-
     </div>
 
 @endsection
