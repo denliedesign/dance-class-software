@@ -3,14 +3,15 @@
 
     <div class="banner-wrap">
         <div class="banner">
-            <img src="/images/banner-dancers.png" alt="banner" style="width: 100%; height: auto;">
+            <img src="/images/logo-family-flex-scheduler.jpg" alt="family flex scheduler" style="width: 100%; height: auto;">
         </div>
     </div>
 
     <div class="container my-5">
         <p class="text-center"><em>Welcome to our brand new dance class search feature!<br>You're steps away from finding the perfect dance class tailored just for you and your family.</em></p>
         <hr class="my-3" style="width: 60%; margin: 0 auto;">
-        <h1 class="text-center">Family Flex Scheduler</h1>
+{{--        <h1 class="text-center">Family Flex Scheduler</h1>--}}
+{{--        <img src="/images/logo-family-flex-scheduler.jpg" alt="family flex scheduler" class="img-fluid">--}}
         <h1 class="text-center"><span style="font-size: 0.7em;">Discover Your Perfect Dance Class<br>Easy as 1-2-3! <ion-icon name="checkbox" style="color: #DC3545;"></ion-icon></span></h1>
         <hr class="my-3" style="width: 60%; margin: 0 auto;">
         <p class="text-center">
