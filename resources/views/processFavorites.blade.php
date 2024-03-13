@@ -3,7 +3,7 @@
 
     <div class="banner-wrap">
         <div class="banner">
-            <img src="/images/banner-dancers.png" alt="banner" style="width: 100%; height: auto;">
+            <img src="/images/logo-family-flex-scheduler.jpg" alt="family flex scheduler" style="width: 100%; height: auto;">
         </div>
     </div>
     @if (session('sendEmail'))
@@ -13,7 +13,7 @@ SUCCESS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     <div class="container my-5">
 {{--        <hr class="my-3" style="width: 60%; margin: 0 auto;">--}}
-        <h1 class="text-center mt-4 mb-0">Family Flex Scheduler</h1>
+{{--        <h1 class="text-center mt-4 mb-0">Family Flex Scheduler</h1>--}}
         <h1 class="text-center mb-4 mt-0"><span style="font-size: 0.7em;">Your Selected Classes</span></h1>
 {{--        <hr class="my-3" style="width: 60%; margin: 0 auto;">--}}
 

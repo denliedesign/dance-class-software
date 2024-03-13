@@ -3,14 +3,14 @@
 
     <div class="banner-wrap">
         <div class="banner">
-            <img src="/images/banner-dancers.png" alt="banner" style="width: 100%; height: auto;">
+            <img src="/images/logo-family-flex-scheduler.jpg" alt="family flex scheduler" style="width: 100%; height: auto;">
         </div>
     </div>
 
 
     <div class="container my-5">
 {{--        <hr class="my-3" style="width: 60%; margin: 0 auto;">--}}
-        <h1 class="text-center mt-4">Family Flex Scheduler</h1>
+{{--        <h1 class="text-center mt-4">Family Flex Scheduler</h1>--}}
         <h1 class="text-center mb-4"><span style="font-size: 0.7em;">Personalized Dance Recommendations for You!</span></h1>
         <p class="text-center">
             Having filtered the dance classes based on your specified criteria, it's time to select your favorites. This will ensure you see only the classes that align perfectly with what you're looking for, making your registration process smoother and more tailored to your preferences.
